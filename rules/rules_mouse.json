@@ -47,10 +47,14 @@
       ]
     },
     {
+      "ruleType": "fixTraTrd",
+      "file": "output/mouse_V_TRA.json"
+    },
+    {
       "ruleType": "import",
       "output": "output/mouse_V_TRD",
       "geneType": "V",
-      "chain": "TRA",
+      "chain": "TRD",
       "anchorPoints": [
         {
           "point": "FR1Begin",
