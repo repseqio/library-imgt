@@ -67,8 +67,6 @@ wg="wget --load-cookies ${buildFolder}/imgt-cookies.txt --save-cookies ${buildFo
 taxonId=$(jq -r '.taxonId' ${input})
 sNames=$(jq -r -c '.speciesNames' ${input})
 
-echo ${sNames}
-
 jq -r -c '.rules[]' ${input} | \
 while read rule;
 do
@@ -93,7 +91,9 @@ do
         fi
 
         # Loading points position
-        points=$(echo "${rule}" | jq -r '.anchorPoints[] | "-P" + .point + "=" + (.position | tostring)' | tr '\n' ' ')
+        pointsP=$(echo "${rule}" | jq -r '.anchorPoints[] | select(.position != null) | "-P" + .point + "=" + (.position | tostring)' | tr '\n' ' ')
+        pointsL=$(echo "${rule}" | jq -r '.anchorPoints[] | select(.aaPattern != null) | @sh "-L" + .point + "=" + (.aaPattern | tostring)' | tr '\n' ' ')
+        points="${pointsP} ${pointsL}"
 
         repseqio fromPaddedFasta -f ${points} --ignore-duplicates --chain ${chain} --taxon-id ${taxonId} --gene-type ${geneType} \
             --name-index 1 --functionality-index 3 ${pFastaFile} ${dir}/${output}.fasta ${dir}/${output}.json
@@ -109,6 +109,14 @@ do
           jq '(.[].genes[] | select((.name | test("^TRAV")) == true) .chains) |= ["TRAV"]' | \
           jq '(.[].genes[] | select((.name | test("DV")) == true) .chains) |= . + ["TRDV"]' | \
           jq '(.[].genes[] | select((.name | test("^TRDV")) == true) .chains) |= ["TRDV"]' > ${libFile}.tmp
+        mv ${libFile}.tmp ${libFile}
+    fi
+
+    if [[ "${t}" == "removeTra" ]];
+    then
+        libFile=${dir}/$(echo "${rule}" | jq -r '.file')
+        cat ${libFile} | \
+          jq 'del(.[].genes[] | select((.name | test("^TRAV")) == true))' > ${libFile}.tmp
         mv ${libFile}.tmp ${libFile}
     fi
 done
