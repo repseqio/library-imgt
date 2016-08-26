@@ -1,0 +1,50 @@
+{
+  "taxonId": 10090,
+  "speciesNames": [
+    "mmu",
+    "mouse",
+    "musmus",
+    "musmusculus"
+  ],
+  "rules": [
+    {
+      "ruleType": "import",
+      "output": "build/mouse_V_TRA_TRD",
+      "geneType": "V",
+      "chain": "TRA",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 81
+        },
+        {
+          "point": "FR2Begin",
+          "position": 117
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 168
+        },
+        {
+          "point": "FR3Begin",
+          "position": 198
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 315
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRAV&species=Mus"
+      ]
+    }
+  ]
+}

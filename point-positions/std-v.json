@@ -1,0 +1,30 @@
+[
+  {
+    "point": "FR1Begin",
+    "position": 0
+  },
+  {
+    "point": "CDR1Begin",
+    "position": 78
+  },
+  {
+    "point": "FR2Begin",
+    "position": 114
+  },
+  {
+    "point": "CDR2Begin",
+    "position": 165
+  },
+  {
+    "point": "FR3Begin",
+    "position": 195
+  },
+  {
+    "point": "CDR3Begin",
+    "position": 309
+  },
+  {
+    "point": "VEnd",
+    "position": -1
+  }
+]
