@@ -9,7 +9,7 @@
   "rules": [
     {
       "ruleType": "import",
-      "output": "build/mouse_V_TRA_TRD",
+      "output": "output/mouse_V_TRA_TRD",
       "geneType": "V",
       "chain": "TRA",
       "anchorPoints": [
