@@ -58,12 +58,16 @@ do
 done
 
 buildFolder="${dir}/build"
+outputFolder="${dir}/output"
 mkdir -p ${buildFolder}
+mkdir -p ${outputFolder}
 
 wg="wget --load-cookies ${buildFolder}/imgt-cookies.txt --save-cookies ${buildFolder}/imgt-cookies.txt -qO-"
 
 taxonId=$(jq -r '.taxonId' ${input})
 sNames=$(jq -r -c '.speciesNames' ${input})
+
+echo ${sNames}
 
 jq -r -c '.rules[]' ${input} | \
 while read rule;
@@ -91,7 +95,20 @@ do
         # Loading points position
         points=$(echo "${rule}" | jq -r '.anchorPoints[] | "-P" + .point + "=" + (.position | tostring)' | tr '\n' ' ')
 
-        repseqio fromPaddedFasta ${points} --chain ${chain} --taxon-id ${taxonId} --gene-type ${geneType} \
-            --name-index 1 --functionality-index 3 ${pFastaFile} ${output}.fasta ${output}.json
+        repseqio fromPaddedFasta -f ${points} --ignore-duplicates --chain ${chain} --taxon-id ${taxonId} --gene-type ${geneType} \
+            --name-index 1 --functionality-index 3 ${pFastaFile} ${dir}/${output}.fasta ${dir}/${output}.json
+
+        cat ${dir}/${output}.json | jq ".[].speciesNames |= ${sNames}" > ${dir}/${output}.json.tmp
+        mv ${dir}/${output}.json.tmp ${dir}/${output}.json
+    fi
+
+    if [[ "${t}" == "fixTraTrd" ]];
+    then
+        libFile=${dir}/$(echo "${rule}" | jq -r '.file')
+        cat ${libFile} | \
+          jq '(.[].genes[] | select((.name | test("^TRAV")) == true) .chains) |= ["TRAV"]' | \
+          jq '(.[].genes[] | select((.name | test("DV")) == true) .chains) |= . + ["TRDV"]' | \
+          jq '(.[].genes[] | select((.name | test("^TRDV")) == true) .chains) |= ["TRDV"]' > ${libFile}.tmp
+        mv ${libFile}.tmp ${libFile}
     fi
 done
