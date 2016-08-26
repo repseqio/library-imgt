@@ -58,6 +58,7 @@ do
 done
 
 buildFolder="${dir}/build"
+mkdir -p ${buildFolder}
 
 wg="wget --load-cookies ${buildFolder}/imgt-cookies.txt --save-cookies ${buildFolder}/imgt-cookies.txt -qO-"
 
