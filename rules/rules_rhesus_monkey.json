@@ -1,0 +1,299 @@
+{
+  "taxonId": 9544,
+  "speciesNames": [
+    "rhesus_monkey",
+    "macaca_mulatta"
+  ],
+  "rules": [
+    {
+      "ruleType": "import",
+      "output": "output/rhesus_monkey_V_IGH",
+      "geneType": "V",
+      "chain": "IGH",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 78
+        },
+        {
+          "point": "FR2Begin",
+          "position": 114
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 165
+        },
+        {
+          "point": "FR3Begin",
+          "position": 195
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 309
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHV&species=Macaca+mulatta"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/rhesus_monkey_D_IGH",
+      "geneType": "D",
+      "chain": "IGH",
+      "anchorPoints": [
+        {
+          "point": "DBegin",
+          "position": 0
+        },
+        {
+          "point": "DEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHD&species=Macaca+mulatta"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/rhesus_monkey_J_IGH",
+      "geneType": "J",
+      "chain": "IGH",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -31,
+          "aaPattern": "[WF](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHJ&species=Macaca+mulatta"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/rhesus_monkey_V_IGK",
+      "geneType": "V",
+      "chain": "IGK",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 78
+        },
+        {
+          "point": "FR2Begin",
+          "position": 114
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 165
+        },
+        {
+          "point": "FR3Begin",
+          "position": 195
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 309
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+IGKV&species=Macaca+mulatta"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/rhesus_monkey_J_IGK",
+      "geneType": "J",
+      "chain": "IGK",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -28,
+          "aaPattern": "[WF](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+IGKJ&species=Macaca+mulatta"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/rhesus_monkey_V_IGL",
+      "geneType": "V",
+      "chain": "IGL",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 81
+        },
+        {
+          "point": "FR2Begin",
+          "position": 117
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 174
+        },
+        {
+          "point": "FR3Begin",
+          "position": 204
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 318
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+IGLV&species=Macaca+mulatta"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/rhesus_monkey_J_IGL",
+      "geneType": "J",
+      "chain": "IGL",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -28,
+          "aaPattern": "[WF](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+IGLJ&species=Macaca+mulatta"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/rhesus_monkey_V_TRB",
+      "geneType": "V",
+      "chain": "TRB",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 78
+        },
+        {
+          "point": "FR2Begin",
+          "position": 114
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 165
+        },
+        {
+          "point": "FR3Begin",
+          "position": 195
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 309
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRBV&species=Macaca+mulatta"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/rhesus_monkey_D_TRB",
+      "geneType": "D",
+      "chain": "TRB",
+      "anchorPoints": [
+        {
+          "point": "DBegin",
+          "position": 0
+        },
+        {
+          "point": "DEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRBD&species=Macaca+mulatta"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/rhesus_monkey_J_TRB",
+      "geneType": "J",
+      "chain": "TRB",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -28,
+          "aaPattern": "[WF](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRBJ&species=Macaca+mulatta"
+      ]
+    }
+  ]
+}

@@ -9,6 +9,214 @@
   "rules": [
     {
       "ruleType": "import",
+      "output": "output/mouse_V_IGH",
+      "geneType": "V",
+      "chain": "IGH",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 78
+        },
+        {
+          "point": "FR2Begin",
+          "position": 114
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 165
+        },
+        {
+          "point": "FR3Begin",
+          "position": 195
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 309
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHV&species=Mus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/mouse_D_IGH",
+      "geneType": "D",
+      "chain": "IGH",
+      "anchorPoints": [
+        {
+          "point": "DBegin",
+          "position": 0
+        },
+        {
+          "point": "DEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHD&species=Mus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/mouse_J_IGH",
+      "geneType": "J",
+      "chain": "IGH",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -28,
+          "aaPattern": "[WF](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHJ&species=Mus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/mouse_V_IGK",
+      "geneType": "V",
+      "chain": "IGK",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 78
+        },
+        {
+          "point": "FR2Begin",
+          "position": 114
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 165
+        },
+        {
+          "point": "FR3Begin",
+          "position": 195
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 309
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+IGKV&species=Mus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/mouse_J_IGK",
+      "geneType": "J",
+      "chain": "IGK",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -28,
+          "aaPattern": "[WF](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+IGKJ&species=Mus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/mouse_V_IGL",
+      "geneType": "V",
+      "chain": "IGL",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 78
+        },
+        {
+          "point": "FR2Begin",
+          "position": 114
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 165
+        },
+        {
+          "point": "FR3Begin",
+          "position": 195
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 309
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+IGLV&species=Mus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/mouse_J_IGL",
+      "geneType": "J",
+      "chain": "IGL",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -28,
+          "aaPattern": "[WF](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+IGLJ&species=Mus"
+      ]
+    },
+    {
+      "ruleType": "import",
       "output": "output/mouse_V_TRA",
       "geneType": "V",
       "chain": "TRA",
@@ -62,23 +270,23 @@
         },
         {
           "point": "CDR1Begin",
-          "position": 81
+          "position": 78
         },
         {
           "point": "FR2Begin",
-          "position": 117
+          "position": 114
         },
         {
           "point": "CDR2Begin",
-          "position": 168
+          "position": 165
         },
         {
           "point": "FR3Begin",
-          "position": 198
+          "position": 195
         },
         {
           "point": "CDR3Begin",
-          "position": 315
+          "position": 309
         },
         {
           "point": "VEnd",
@@ -173,6 +381,136 @@
       ],
       "sources": [
         "http://www.imgt.org/genedb/GENElect?query=7.14+TRBD&species=Mus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/mouse_J_TRB",
+      "geneType": "J",
+      "chain": "TRB",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -28,
+          "aaPattern": "[WF](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRBJ&species=Mus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/mouse_D_TRD",
+      "geneType": "D",
+      "chain": "TRD",
+      "anchorPoints": [
+        {
+          "point": "DBegin",
+          "position": 0
+        },
+        {
+          "point": "DEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRDD&species=Mus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/mouse_J_TRD",
+      "geneType": "J",
+      "chain": "TRD",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -31,
+          "aaPattern": "[WF](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRDJ&species=Mus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/mouse_V_TRG",
+      "geneType": "V",
+      "chain": "TRG",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 78
+        },
+        {
+          "point": "FR2Begin",
+          "position": 114
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 165
+        },
+        {
+          "point": "FR3Begin",
+          "position": 195
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 309
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRGV&species=Mus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/mouse_J_TRG",
+      "geneType": "J",
+      "chain": "TRG",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -28,
+          "aaPattern": "[WF](A).G"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRGJ&species=Mus"
       ]
     }
   ]

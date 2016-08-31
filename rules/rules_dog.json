@@ -1,0 +1,154 @@
+{
+  "taxonId": 9615,
+  "speciesNames": [
+    "dog",
+    "conis_lupus"
+  ],
+  "rules": [
+    {
+      "ruleType": "import",
+      "output": "output/dog_V_TRB",
+      "geneType": "V",
+      "chain": "TRB",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 78
+        },
+        {
+          "point": "FR2Begin",
+          "position": 114
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 165
+        },
+        {
+          "point": "FR3Begin",
+          "position": 195
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 309
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRBV&species=Canis+lupus+familiaris"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/dog_D_TRB",
+      "geneType": "D",
+      "chain": "TRB",
+      "anchorPoints": [
+        {
+          "point": "DBegin",
+          "position": 0
+        },
+        {
+          "point": "DEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRBD&species=Canis+lupus+familiaris"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/dog_J_TRB",
+      "geneType": "J",
+      "chain": "TRB",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -28,
+          "aaPattern": "[WF](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRBJ&species=Canis+lupus+familiaris"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/dog_V_TRG",
+      "geneType": "V",
+      "chain": "TRG",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 78
+        },
+        {
+          "point": "FR2Begin",
+          "position": 114
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 165
+        },
+        {
+          "point": "FR3Begin",
+          "position": 195
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 309
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRGV&species=Canis+lupus+familiaris"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/dog_J_TRG",
+      "geneType": "J",
+      "chain": "TRG",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -34,
+          "aaPattern": "[WFL](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRGJ&species=Canis+lupus+familiaris"
+      ]
+    }
+  ]
+}

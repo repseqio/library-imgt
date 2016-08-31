@@ -1,0 +1,155 @@
+{
+  "taxonId": 9913,
+  "speciesNames": [
+    "bovine",
+    "cow",
+    "bos_taurus"
+  ],
+  "rules": [
+    {
+      "ruleType": "import",
+      "output": "output/bovine_V_TRD",
+      "geneType": "V",
+      "chain": "TRD",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 78
+        },
+        {
+          "point": "FR2Begin",
+          "position": 132
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 183
+        },
+        {
+          "point": "FR3Begin",
+          "position": 213
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 327
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRDV&species=Bos+taurus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/bovine_D_TRD",
+      "geneType": "D",
+      "chain": "TRD",
+      "anchorPoints": [
+        {
+          "point": "DBegin",
+          "position": 0
+        },
+        {
+          "point": "DEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRDD&species=Bos+taurus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/bovine_J_TRD",
+      "geneType": "J",
+      "chain": "TRD",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -28,
+          "aaPattern": "[WF](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRDJ&species=Bos+taurus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/bovine_V_TRG",
+      "geneType": "V",
+      "chain": "TRG",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 84
+        },
+        {
+          "point": "FR2Begin",
+          "position": 120
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 171
+        },
+        {
+          "point": "FR3Begin",
+          "position": 201
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 315
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRGV&species=Bos+taurus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/bovine_J_TRG",
+      "geneType": "J",
+      "chain": "TRG",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -22,
+          "aaPattern": "[WF]([GN]).G"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRGJ&species=Bos+taurus"
+      ]
+    }
+  ]
+}

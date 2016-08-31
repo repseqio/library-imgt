@@ -1,0 +1,153 @@
+{
+  "taxonId": 7955,
+  "speciesNames": [
+    "zebrafish"
+  ],
+  "rules": [
+    {
+      "ruleType": "import",
+      "output": "output/zebrafish_V_IGH",
+      "geneType": "V",
+      "chain": "IGH",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 78
+        },
+        {
+          "point": "FR2Begin",
+          "position": 114
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 165
+        },
+        {
+          "point": "FR3Begin",
+          "position": 195
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 312
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHV&species=Danio+rerio"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/zebrafish_D_IGH",
+      "geneType": "D",
+      "chain": "IGH",
+      "anchorPoints": [
+        {
+          "point": "DBegin",
+          "position": 0
+        },
+        {
+          "point": "DEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHD&species=Danio+rerio"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/zebrafish_J_IGH",
+      "geneType": "J",
+      "chain": "IGH",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -31,
+          "aaPattern": "[WF](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHJ&species=Danio+rerio"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/zebrafish_V_IGI",
+      "geneType": "V",
+      "chain": "IGI",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 78
+        },
+        {
+          "point": "FR2Begin",
+          "position": 129
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 180
+        },
+        {
+          "point": "FR3Begin",
+          "position": 210
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 324
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+IGIV&species=Danio+rerio"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/zebrafish_J_IGI",
+      "geneType": "J",
+      "chain": "IGI",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -28,
+          "aaPattern": "[WF](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+IGIJ&species=Danio+rerio"
+      ]
+    }
+  ]
+}
