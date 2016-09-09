@@ -45,8 +45,8 @@ outputFolder="${dir}/output"
 
 if [[ "$1" == "full" ]];
 then
-    rm ${cacheFolder}
-    rm ${outputFolder}
+    rm -rf ${cacheFolder}
+    rm -rf ${outputFolder}
 fi
 
 mkdir -p ${cacheFolder}
