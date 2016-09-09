@@ -40,6 +40,20 @@ case $os in
     ;;
 esac
 
+cacheFolder="${dir}/cache"
+outputFolder="${dir}/output"
+
+if [[ "$1" == "full" ]];
+then
+    rm ${cacheFolder}
+    rm ${outputFolder}
+fi
+
+mkdir -p ${cacheFolder}
+mkdir -p ${outputFolder}
+
+wg="wget --load-cookies ${cacheFolder}/imgt-cookies.txt --save-cookies ${cacheFolder}/imgt-cookies.txt -qO-"
+
 for rule in ${dir}/rules/*.json;
 do
     ${dir}/exec.sh ${rule}
@@ -49,9 +63,13 @@ tomerge=()
 
 for file in ${dir}/output/*.json;
 do
-    out=${dir}/build/$(basename ${file}).compiled
+    out=${outputFolder}/$(basename ${file}).compiled
     repseqio compile -f ${file} ${out}
     tomerge+=("${out}")
 done
 
-repseqio merge -f ${tomerge[@]} ${dir}/imgt.json
+imgtVersion=$($wg http://www.imgt.org/IMGT_vquest/share/textes/ | pup -p 'a[href="./datareleases.html"] text{}' | sed 's/ *//g')
+tag=$(git describe --always --tags)
+
+repseqio merge -f ${tomerge[@]} ${dir}/imgt.${tag}-${imgtVersion}.json.gz
+
