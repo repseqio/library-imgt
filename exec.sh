@@ -106,9 +106,9 @@ do
     then
         libFile=${dir}/$(echo "${rule}" | jq -r '.file')
         cat ${libFile} | \
-          jq '(.[].genes[] | select((.name | test("^TRAV")) == true) .chains) |= ["TRAV"]' | \
-          jq '(.[].genes[] | select((.name | test("DV")) == true) .chains) |= . + ["TRDV"]' | \
-          jq '(.[].genes[] | select((.name | test("^TRDV")) == true) .chains) |= ["TRDV"]' > ${libFile}.tmp
+          jq '(.[].genes[] | select((.name | test("^TRAV")) == true) .chains) |= ["TRA"]' | \
+          jq '(.[].genes[] | select((.name | test("DV")) == true) .chains) |= . + ["TRD"]' | \
+          jq '(.[].genes[] | select((.name | test("^TRDV")) == true) .chains) |= ["TRD"]' > ${libFile}.tmp
         mv ${libFile}.tmp ${libFile}
     fi
 
