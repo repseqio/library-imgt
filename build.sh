@@ -71,5 +71,5 @@ done
 imgtVersion=$($wg http://www.imgt.org/IMGT_vquest/share/textes/ | pup -p 'a[href="./datareleases.html"] text{}' | sed 's/ *//g')
 tag=$(git describe --always --tags)
 
-repseqio merge -f ${tomerge[@]} ${dir}/imgt.${imgtVersion}.${tag}.json.gz
+repseqio merge -f ${tomerge[@]} ${dir}/imgt.${imgtVersion}.s${tag}.json.gz
 
