@@ -6,6 +6,159 @@
   "rules": [
     {
       "ruleType": "import",
+      "output": "output/zebrafish_V_TRA",
+      "geneType": "V",
+      "chain": "TRA",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 78
+        },
+        {
+          "point": "FR2Begin",
+          "position": 114
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 165
+        },
+        {
+          "point": "FR3Begin",
+          "position": 195
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 309
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRAV&species=Danio+rerio"
+      ]
+    },
+    {
+      "ruleType": "fixTraTrd",
+      "file": "output/zebrafish_V_TRA.json"
+    },
+    {
+      "ruleType": "import",
+      "output": "output/zebrafish_V_TRD",
+      "geneType": "V",
+      "chain": "TRD",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 78
+        },
+        {
+          "point": "FR2Begin",
+          "position": 114
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 165
+        },
+        {
+          "point": "FR3Begin",
+          "position": 195
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 309
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRDV&species=Danio+rerio"
+      ]
+    },
+    {
+      "ruleType": "removeTra",
+      "file": "output/zebrafish_V_TRD.json"
+    },
+    {
+      "ruleType": "import",
+      "output": "output/zebrafish_J_TRA",
+      "geneType": "J",
+      "chain": "TRA",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -31,
+          "aaPattern": "[WF](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRAJ&species=Danio+rerio"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/zebrafish_D_TRD",
+      "geneType": "D",
+      "chain": "TRD",
+      "anchorPoints": [
+        {
+          "point": "DBegin",
+          "position": 0
+        },
+        {
+          "point": "DEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRDD&species=Danio+rerio"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/zebrafish_J_TRD",
+      "geneType": "J",
+      "chain": "TRD",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -31,
+          "aaPattern": "[WF](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRDJ&species=Danio+rerio"
+      ]
+    },
+    {
+      "ruleType": "import",
       "output": "output/zebrafish_V_IGH",
       "geneType": "V",
       "chain": "IGH",
