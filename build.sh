@@ -40,6 +40,15 @@ case $os in
     ;;
 esac
 
+function loge() {
+    echo "$1"
+    exit 1
+}
+
+# Checks that required software is installed in the system
+type jq >/dev/null 2>&1 || loge "Please install \"jq\". Try \"brew install jq\" or \"apt-get install jq\"."
+type pup >/dev/null 2>&1 || loge "Please install \"pup\". Try \"brew install pup\" or \"apt-get install pup\"."
+
 cacheFolder="${dir}/cache"
 outputFolder="${dir}/output"
 
