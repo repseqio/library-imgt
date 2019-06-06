@@ -77,8 +77,8 @@ do
     tomerge+=("${out}")
 done
 
-imgtVersion=$($wg http://www.imgt.org/IMGT_vquest/share/textes/ | pup -p 'a[href="./datareleases.html"] text{}' | sed 's/ *//g')
+# imgtVersion=$($wg http://www.imgt.org/IMGT_vquest/share/textes/ | pup -p 'a[href="./datareleases.html"] text{}' | sed 's/ *//g')
+imgtVersion=$($wg http://www.imgt.org/IMGT_vquest/data_releases | grep '<b>' | grep 'Release' | head -n 1 | sed 's:.*Release *::' | sed 's: *(.*::')
 tag=$(git describe --always --tags)
 
 repseqio merge -f ${tomerge[@]} ${dir}/imgt.${imgtVersion}.s${tag}.json.gz
-
