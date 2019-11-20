@@ -43,7 +43,7 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/download/V-QUEST/IMGT_V-QUEST_reference_directory/Mus_musculus/IG/IGHV.fasta"
+        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHV&species=Mus+musculus"
       ]
     },
     {
@@ -62,7 +62,7 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/download/V-QUEST/IMGT_V-QUEST_reference_directory/Mus_musculus/IG/IGHD.fasta"
+        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHD&species=Mus+musculus"
       ]
     },
     {
@@ -86,7 +86,7 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/download/V-QUEST/IMGT_V-QUEST_reference_directory/Mus_musculus/IG/IGHJ.fasta"
+        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHJ&species=Mus+musculus"
       ]
     },
     {
@@ -125,7 +125,7 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/download/V-QUEST/IMGT_V-QUEST_reference_directory/Mus_musculus/IG/IGKV.fasta"
+        "http://www.imgt.org/genedb/GENElect?query=7.14+IGKV&species=Mus+musculus"
       ]
     },
     {
@@ -149,7 +149,7 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/download/V-QUEST/IMGT_V-QUEST_reference_directory/Mus_musculus/IG/IGKJ.fasta"
+        "http://www.imgt.org/genedb/GENElect?query=7.14+IGKJ&species=Mus+musculus"
       ]
     },
     {
@@ -188,7 +188,7 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/download/V-QUEST/IMGT_V-QUEST_reference_directory/Mus_musculus/IG/IGLV.fasta"
+        "http://www.imgt.org/genedb/GENElect?query=7.14+IGLV&species=Mus+musculus"
       ]
     },
     {
@@ -212,7 +212,7 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/download/V-QUEST/IMGT_V-QUEST_reference_directory/Mus_musculus/IG/IGLJ.fasta"
+        "http://www.imgt.org/genedb/GENElect?query=7.14+IGLJ&species=Mus+musculus"
       ]
     },
     {
@@ -251,7 +251,7 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/download/V-QUEST/IMGT_V-QUEST_reference_directory/Mus_musculus/TR/TRAV.fasta"
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRAV&species=Mus+musculus"
       ]
     },
     {
@@ -294,7 +294,7 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/download/V-QUEST/IMGT_V-QUEST_reference_directory/Mus_musculus/TR/TRDV.fasta"
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRDV&species=Mus+musculus"
       ]
     },
     {
@@ -322,7 +322,7 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/download/V-QUEST/IMGT_V-QUEST_reference_directory/Mus_musculus/TR/TRAJ.fasta"
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRAJ&species=Mus+musculus"
       ]
     },
     {
@@ -361,7 +361,7 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/download/V-QUEST/IMGT_V-QUEST_reference_directory/Mus_musculus/TR/TRBV.fasta"
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRBV&species=Mus+musculus"
       ]
     },
     {
@@ -380,7 +380,7 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/download/V-QUEST/IMGT_V-QUEST_reference_directory/Mus_musculus/TR/TRBD.fasta"
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRBD&species=Mus+musculus"
       ]
     },
     {
@@ -404,7 +404,7 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/download/V-QUEST/IMGT_V-QUEST_reference_directory/Mus_musculus/TR/TRBJ.fasta"
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRBJ&species=Mus_musculus"
       ]
     },
     {
@@ -423,7 +423,7 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/download/V-QUEST/IMGT_V-QUEST_reference_directory/Mus_musculus/TR/TRDD.fasta"
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRDD&species=Mus+musculus"
       ]
     },
     {
@@ -447,7 +447,7 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/download/V-QUEST/IMGT_V-QUEST_reference_directory/Mus_musculus/TR/TRDJ.fasta"
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRDJ&species=Mus+musculus"
       ]
     },
     {
@@ -486,7 +486,7 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/download/V-QUEST/IMGT_V-QUEST_reference_directory/Mus_musculus/TR/TRGV.fasta"
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRGV&species=Mus+musculus"
       ]
     },
     {
@@ -510,7 +510,7 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/download/V-QUEST/IMGT_V-QUEST_reference_directory/Mus_musculus/TR/TRGJ.fasta"
+        "http://www.imgt.org/genedb/GENElect?query=7.14+TRGJ&species=Mus+musculus"
       ]
     }
   ]
