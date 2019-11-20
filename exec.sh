@@ -57,12 +57,12 @@ do
     esac
 done
 
-buildFolder="${dir}/build"
+cacheFolder="${dir}/cache"
 outputFolder="${dir}/output"
-mkdir -p ${buildFolder}
+mkdir -p ${cacheFolder}
 mkdir -p ${outputFolder}
 
-wg="wget --load-cookies ${buildFolder}/imgt-cookies.txt --save-cookies ${buildFolder}/imgt-cookies.txt -qO-"
+wg="wget --load-cookies ${cacheFolder}/imgt-cookies.txt --save-cookies ${cacheFolder}/imgt-cookies.txt -qO-"
 
 taxonId=$(jq -r '.taxonId' ${input})
 sNames=$(jq -r -c '.speciesNames' ${input})
@@ -76,7 +76,7 @@ do
         output=$(echo "${rule}" | jq -r '.output')
         chain=$(echo "${rule}" | jq -r '.chain')
         geneType=$(echo "${rule}" | jq -r '.geneType')
-        pFastaFile=${buildFolder}/$(basename ${output}).p.fasta
+        pFastaFile=${cacheFolder}/$(basename ${output}).p.fasta
 
         # Downloading file
         if [ ! -f ${pFastaFile} ] || [ ${redownload} == true ];
@@ -106,9 +106,9 @@ do
     then
         libFile=${dir}/$(echo "${rule}" | jq -r '.file')
         cat ${libFile} | \
-          jq '(.[].genes[] | select((.name | test("^TRAV")) == true) .chains) |= ["TRAV"]' | \
-          jq '(.[].genes[] | select((.name | test("DV")) == true) .chains) |= . + ["TRDV"]' | \
-          jq '(.[].genes[] | select((.name | test("^TRDV")) == true) .chains) |= ["TRDV"]' > ${libFile}.tmp
+          jq '(.[].genes[] | select((.name | test("^TRAV")) == true) .chains) |= ["TRA"]' | \
+          jq '(.[].genes[] | select((.name | test("DV")) == true) .chains) |= . + ["TRD"]' | \
+          jq '(.[].genes[] | select((.name | test("^TRDV")) == true) .chains) |= ["TRD"]' > ${libFile}.tmp
         mv ${libFile}.tmp ${libFile}
     fi
 
