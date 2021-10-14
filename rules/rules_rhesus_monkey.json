@@ -510,6 +510,82 @@
       "sources": [
         "http://imgt.org/genedb/GENElect?query=7.2+TRGJ&species=Macaca+mulatta"
       ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/rhesus_monkey_C_TRA",
+      "geneType": "C",
+      "chain": "TRA",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 0
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=8.1+TRAC&species=Macaca+mulatta&IMGTlabel=EX1"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/rhesus_monkey_C_TRB",
+      "geneType": "C",
+      "chain": "TRB",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 0
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=8.1+TRBC&species=Macaca+mulatta&IMGTlabel=EX1"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/rhesus_monkey_C_TRD",
+      "geneType": "C",
+      "chain": "TRD",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 0
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=8.1+TRDC&species=Macaca+mulatta&IMGTlabel=EX1"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/rhesus_monkey_C_TRG",
+      "geneType": "C",
+      "chain": "TRG",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 0
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://www.imgt.org/genedb/GENElect?query=8.1+TRGC&species=Macaca+mulatta&IMGTlabel=EX1"
+      ]
     }
   ]
 }
