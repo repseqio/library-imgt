@@ -6,6 +6,69 @@
   "rules": [
     {
       "ruleType": "import",
+      "output": "output/sheep_V_IGL",
+      "geneType": "V",
+      "chain": "IGL",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 78
+        },
+        {
+          "point": "FR2Begin",
+          "position": 114
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 165
+        },
+        {
+          "point": "FR3Begin",
+          "position": 195
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 309
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://imgt.org/genedb/GENElect?query=7.1+IGLV&species=Ovis+aries"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/sheep_J_IGL",
+      "geneType": "J",
+      "chain": "IGL",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -28,
+          "aaPattern": "[WF](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://imgt.org/genedb/GENElect?query=7.5+IGLJ&species=Ovis+aries"
+      ]
+    },
+    {
+      "ruleType": "import",
       "output": "output/sheep_V_TRA",
       "geneType": "V",
       "chain": "TRA",

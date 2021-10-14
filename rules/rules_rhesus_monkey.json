@@ -335,6 +335,10 @@
       ]
     },
     {
+      "ruleType": "fixTraTrd",
+      "file": "output/rhesus_monkey_V_TRA.json"
+    },
+    {
       "ruleType": "import",
       "output": "output/rhesus_monkey_J_TRA",
       "geneType": "J",
@@ -398,6 +402,10 @@
       ]
     },
     {
+      "ruleType": "removeTra",
+      "file": "output/rhesus_monkey_V_TRD.json"
+    },
+    {
       "ruleType": "import",
       "output": "output/rhesus_monkey_D_TRD",
       "geneType": "D",
@@ -438,6 +446,69 @@
       ],
       "sources": [
         "http://www.imgt.org/genedb/GENElect?query=7.14+TRDJ&species=Macaca+mulatta"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/rhesus_monkey_V_TRG",
+      "geneType": "V",
+      "chain": "TRG",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 78
+        },
+        {
+          "point": "FR2Begin",
+          "position": 114
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 168
+        },
+        {
+          "point": "FR3Begin",
+          "position": 195
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 312
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://imgt.org/genedb/GENElect?query=7.1+TRGV&species=Macaca+mulatta"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/rhesus_monkey_J_TRG",
+      "geneType": "J",
+      "chain": "TRG",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -28,
+          "aaPattern": "[WF](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://imgt.org/genedb/GENElect?query=7.2+TRGJ&species=Macaca+mulatta"
       ]
     }
   ]

@@ -7,6 +7,69 @@
   "rules": [
     {
       "ruleType": "import",
+      "output": "output/camel_V_IGK",
+      "geneType": "V",
+      "chain": "IGK",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 78
+        },
+        {
+          "point": "FR2Begin",
+          "position": 114
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 165
+        },
+        {
+          "point": "FR3Begin",
+          "position": 195
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 309
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://imgt.org/genedb/GENElect?query=7.1+IGKV&species=Camelus+dromedarius"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/camel_J_IGK",
+      "geneType": "J",
+      "chain": "IGK",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -28,
+          "aaPattern": "[WF](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "http://imgt.org/genedb/GENElect?query=7.2+IGKJ&species=Camelus+dromedarius"
+      ]
+    },
+    {
+      "ruleType": "import",
       "output": "output/camel_V_TRD",
       "geneType": "V",
       "chain": "TRD",
