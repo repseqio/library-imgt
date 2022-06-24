@@ -510,6 +510,52 @@
       "sources": [
         "http://imgt.org/genedb/GENElect?query=7.2+TRGJ&species=Macaca+mulatta"
       ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/rhesus_monkey_C_IGL",
+      "geneType": "C",
+      "chain": "IGL",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 15
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGLC&species=Macaca+mulatta"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/rhesus_monkey_C_TRG",
+      "geneType": "C",
+      "chain": "TRG",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 0
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+TRGC&species=Macaca+mulatta"
+      ]
     }
   ]
 }

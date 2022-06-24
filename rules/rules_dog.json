@@ -510,6 +510,167 @@
       "sources": [
         "http://www.imgt.org/genedb/GENElect?query=7.14+TRGJ&species=Canis+lupus+familiaris"
       ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/dog_C_IGH",
+      "geneType": "C",
+      "chain": "IGH",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 13
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGHC&species=Canis+lupus+familiaris"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/dog_C_IGK",
+      "geneType": "C",
+      "chain": "IGK",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 12
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGKC&species=Canis+lupus+familiaris"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/dog_C_IGL",
+      "geneType": "C",
+      "chain": "IGL",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 15
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGLC&species=Canis+lupus+familiaris"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/dog_C_TRA",
+      "geneType": "C",
+      "chain": "TRA",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 10
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+TRAC&species=Canis+lupus+familiaris"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/dog_C_TRD",
+      "geneType": "C",
+      "chain": "TRD",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 7
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+TRDC&species=Canis+lupus+familiaris"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/dog_C_TRB",
+      "geneType": "C",
+      "chain": "TRB",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 3
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+TRBC&species=Canis+lupus+familiaris"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/dog_C_TRG",
+      "geneType": "C",
+      "chain": "TRG",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 1
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+TRGC&species=Canis+lupus+familiaris"
+      ]
     }
   ]
 }

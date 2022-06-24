@@ -1,12 +1,12 @@
 {
-  "taxonId": 7955,
+  "taxonId": 9739,
   "speciesNames": [
-    "zebrafish"
+    "dolphin"
   ],
   "rules": [
     {
       "ruleType": "import",
-      "output": "output/zebrafish_V_TRA",
+      "output": "output/dolphin_V_TRA",
       "geneType": "V",
       "chain": "TRA",
       "anchorPoints": [
@@ -40,16 +40,16 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/genedb/GENElect?query=7.14+TRAV&species=Danio+rerio"
+        "https://www.imgt.org/genedb/GENElect?query=7.1+TRAV&species=Tursiops+truncatus"
       ]
     },
     {
       "ruleType": "fixTraTrd",
-      "file": "output/zebrafish_V_TRA.json"
+      "file": "output/dolphin_V_TRA.json"
     },
     {
       "ruleType": "import",
-      "output": "output/zebrafish_V_TRD",
+      "output": "output/dolphin_V_TRD",
       "geneType": "V",
       "chain": "TRD",
       "anchorPoints": [
@@ -83,16 +83,16 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/genedb/GENElect?query=7.14+TRDV&species=Danio+rerio"
+        "https://www.imgt.org/genedb/GENElect?query=7.1+TRDV&species=Tursiops+truncatus"
       ]
     },
     {
       "ruleType": "removeTra",
-      "file": "output/zebrafish_V_TRD.json"
+      "file": "output/dolphin_V_TRD.json"
     },
     {
       "ruleType": "import",
-      "output": "output/zebrafish_J_TRA",
+      "output": "output/dolphin_J_TRA",
       "geneType": "J",
       "chain": "TRA",
       "anchorPoints": [
@@ -111,223 +111,11 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/genedb/GENElect?query=7.14+TRAJ&species=Danio+rerio"
+        "https://www.imgt.org/genedb/GENElect?query=7.5+TRAJ&species=Tursiops+truncatus"
       ]
-    },
-    {
+    },{
       "ruleType": "import",
-      "output": "output/zebrafish_D_TRD",
-      "geneType": "D",
-      "chain": "TRD",
-      "anchorPoints": [
-        {
-          "point": "DBegin",
-          "position": 0
-        },
-        {
-          "point": "DEnd",
-          "position": -1
-        }
-      ],
-      "sources": [
-        "http://www.imgt.org/genedb/GENElect?query=7.14+TRDD&species=Danio+rerio"
-      ]
-    },
-    {
-      "ruleType": "import",
-      "output": "output/zebrafish_J_TRD",
-      "geneType": "J",
-      "chain": "TRD",
-      "anchorPoints": [
-        {
-          "point": "JBegin",
-          "position": 0
-        },
-        {
-          "point": "FR4Begin",
-          "position": -31,
-          "aaPattern": "[WF](G.G)"
-        },
-        {
-          "point": "FR4End",
-          "position": -1
-        }
-      ],
-      "sources": [
-        "http://www.imgt.org/genedb/GENElect?query=7.14+TRDJ&species=Danio+rerio"
-      ]
-    },
-    {
-      "ruleType": "import",
-      "output": "output/zebrafish_V_IGH",
-      "geneType": "V",
-      "chain": "IGH",
-      "anchorPoints": [
-        {
-          "point": "FR1Begin",
-          "position": 0
-        },
-        {
-          "point": "CDR1Begin",
-          "position": 78
-        },
-        {
-          "point": "FR2Begin",
-          "position": 114
-        },
-        {
-          "point": "CDR2Begin",
-          "position": 165
-        },
-        {
-          "point": "FR3Begin",
-          "position": 195
-        },
-        {
-          "point": "CDR3Begin",
-          "position": 312
-        },
-        {
-          "point": "VEnd",
-          "position": -1
-        }
-      ],
-      "sources": [
-        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHV&species=Danio+rerio"
-      ]
-    },
-    {
-      "ruleType": "import",
-      "output": "output/zebrafish_D_IGH",
-      "geneType": "D",
-      "chain": "IGH",
-      "anchorPoints": [
-        {
-          "point": "DBegin",
-          "position": 0
-        },
-        {
-          "point": "DEnd",
-          "position": -1
-        }
-      ],
-      "sources": [
-        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHD&species=Danio+rerio"
-      ]
-    },
-    {
-      "ruleType": "import",
-      "output": "output/zebrafish_J_IGH",
-      "geneType": "J",
-      "chain": "IGH",
-      "anchorPoints": [
-        {
-          "point": "JBegin",
-          "position": 0
-        },
-        {
-          "point": "FR4Begin",
-          "position": -31,
-          "aaPattern": "[WF](G.G)"
-        },
-        {
-          "point": "FR4End",
-          "position": -1
-        }
-      ],
-      "sources": [
-        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHJ&species=Danio+rerio"
-      ]
-    },
-    {
-      "ruleType": "import",
-      "output": "output/zebrafish_V_IGI",
-      "geneType": "V",
-      "chain": "IGI",
-      "anchorPoints": [
-        {
-          "point": "FR1Begin",
-          "position": 0
-        },
-        {
-          "point": "CDR1Begin",
-          "position": 78
-        },
-        {
-          "point": "FR2Begin",
-          "position": 129
-        },
-        {
-          "point": "CDR2Begin",
-          "position": 180
-        },
-        {
-          "point": "FR3Begin",
-          "position": 210
-        },
-        {
-          "point": "CDR3Begin",
-          "position": 324
-        },
-        {
-          "point": "VEnd",
-          "position": -1
-        }
-      ],
-      "sources": [
-        "http://www.imgt.org/genedb/GENElect?query=7.14+IGIV&species=Danio+rerio"
-      ]
-    },
-    {
-      "ruleType": "import",
-      "output": "output/zebrafish_J_IGI",
-      "geneType": "J",
-      "chain": "IGI",
-      "anchorPoints": [
-        {
-          "point": "JBegin",
-          "position": 0
-        },
-        {
-          "point": "FR4Begin",
-          "position": -28,
-          "aaPattern": "[WF](G.G)"
-        },
-        {
-          "point": "FR4End",
-          "position": -1
-        }
-      ],
-      "sources": [
-        "http://www.imgt.org/genedb/GENElect?query=7.14+IGIJ&species=Danio+rerio"
-      ]
-    },
-    {
-      "ruleType": "import",
-      "output": "output/zebrafish_C_IGI",
-      "geneType": "C",
-      "chain": "IGI",
-      "anchorPoints": [
-        {
-          "point": "CBegin",
-          "position": 15
-        },
-        {
-          "point": "CExon1End",
-          "position": -1
-        },
-        {
-          "point": "CEnd",
-          "position": -1
-        }
-      ],
-      "sources": [
-        "https://www.imgt.org/genedb/GENElect?query=7.1+IGIC&species=Danio+rerio"
-      ]
-    },
-    {
-      "ruleType": "import",
-      "output": "output/zebrafish_C_TRA",
+      "output": "output/dolphin_C_TRA",
       "geneType": "C",
       "chain": "TRA",
       "anchorPoints": [
@@ -345,12 +133,11 @@
         }
       ],
       "sources": [
-        "https://www.imgt.org/genedb/GENElect?query=7.1+TRAC&species=Danio+rerio"
+        "https://www.imgt.org/genedb/GENElect?query=7.1+TRAC&species=Tursiops+truncatus"
       ]
-    },
-    {
+    },{
       "ruleType": "import",
-      "output": "output/zebrafish_C_TRD",
+      "output": "output/dolphin_C_TRD",
       "geneType": "C",
       "chain": "TRD",
       "anchorPoints": [
@@ -368,7 +155,135 @@
         }
       ],
       "sources": [
-        "https://www.imgt.org/genedb/GENElect?query=7.1+TRDC&species=Danio+rerio"
+        "https://www.imgt.org/genedb/GENElect?query=7.1+TRDC&species=Tursiops+truncatus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/dolphin_D_TRD",
+      "geneType": "D",
+      "chain": "TRD",
+      "anchorPoints": [
+        {
+          "point": "DBegin",
+          "position": 0
+        },
+        {
+          "point": "DEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.5+TRDD&species=Tursiops+truncatus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/dolphin_J_TRD",
+      "geneType": "J",
+      "chain": "TRD",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -31,
+          "aaPattern": "[WF](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.5+TRDJ&species=Tursiops+truncatus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/dolphin_V_TRG",
+      "geneType": "V",
+      "chain": "TRG",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 78
+        },
+        {
+          "point": "FR2Begin",
+          "position": 114
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 165
+        },
+        {
+          "point": "FR3Begin",
+          "position": 195
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 309
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+TRGV&species=Tursiops+truncatus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/dolphin_J_TRG",
+      "geneType": "J",
+      "chain": "TRG",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -28,
+          "aaPattern": "[WF](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.5+TRGJ&species=Tursiops+truncatus"
+      ]
+    },{
+      "ruleType": "import",
+      "output": "output/dolphin_C_TRG",
+      "geneType": "C",
+      "chain": "TRG",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 1
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+TRGC&species=Tursiops+truncatus"
       ]
     }
   ]

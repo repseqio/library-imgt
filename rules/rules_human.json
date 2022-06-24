@@ -91,6 +91,29 @@
     },
     {
       "ruleType": "import",
+      "output": "output/human_C_IGH",
+      "geneType": "C",
+      "chain": "IGH",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 12
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGHC&species=Homo+sapiens"
+      ]
+    },
+    {
+      "ruleType": "import",
       "output": "output/human_V_IGK",
       "geneType": "V",
       "chain": "IGK",
@@ -150,6 +173,28 @@
       ],
       "sources": [
         "http://www.imgt.org/genedb/GENElect?query=7.14+IGKJ&species=Homo+sapiens"
+      ]
+    },{
+      "ruleType": "import",
+      "output": "output/human_C_IGK",
+      "geneType": "C",
+      "chain": "IGK",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 12
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGKC&species=Homo+sapiens"
       ]
     },
     {
@@ -213,6 +258,28 @@
       ],
       "sources": [
         "http://www.imgt.org/genedb/GENElect?query=7.14+IGLJ&species=Homo+sapiens"
+      ]
+    },{
+      "ruleType": "import",
+      "output": "output/human_C_IGL",
+      "geneType": "C",
+      "chain": "IGL",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 15
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGLC&species=Homo+sapiens"
       ]
     },
     {
@@ -324,6 +391,50 @@
       "sources": [
         "http://www.imgt.org/genedb/GENElect?query=7.14+TRAJ&species=Homo+sapiens"
       ]
+    },{
+      "ruleType": "import",
+      "output": "output/human_C_TRA",
+      "geneType": "C",
+      "chain": "TRA",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 11
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+TRAC&species=Homo+sapiens"
+      ]
+    },{
+      "ruleType": "import",
+      "output": "output/human_C_TRD",
+      "geneType": "C",
+      "chain": "TRD",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 8
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+TRDC&species=Homo+sapiens"
+      ]
     },
     {
       "ruleType": "import",
@@ -405,6 +516,28 @@
       ],
       "sources": [
         "http://www.imgt.org/genedb/GENElect?query=7.14+TRBJ&species=Homo+sapiens"
+      ]
+    },{
+      "ruleType": "import",
+      "output": "output/human_C_TRB",
+      "geneType": "C",
+      "chain": "TRB",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 3
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+TRBC&species=Homo+sapiens"
       ]
     },
     {
@@ -511,6 +644,28 @@
       ],
       "sources": [
         "http://www.imgt.org/genedb/GENElect?query=7.14+TRGJ&species=Homo+sapiens"
+      ]
+    },{
+      "ruleType": "import",
+      "output": "output/human_C_TRG",
+      "geneType": "C",
+      "chain": "TRG",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 0
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+TRGC&species=Homo+sapiens"
       ]
     }
   ]

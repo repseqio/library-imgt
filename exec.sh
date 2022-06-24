@@ -63,6 +63,7 @@ mkdir -p ${cacheFolder}
 mkdir -p ${outputFolder}
 
 wg="wget --load-cookies ${cacheFolder}/imgt-cookies.txt --save-cookies ${cacheFolder}/imgt-cookies.txt -qO-"
+awkPipe="awk '{ if ((NR>1)&&($0~/^>/)) { printf("\n%s", $0); } else if (NR==1) { printf("%s", $0); } else { printf("\t%s", $0); } }' | grep -F "CH1" - | tr "\t" "\n""
 
 taxonId=$(jq -r '.taxonId' ${input})
 sNames=$(jq -r -c '.speciesNames' ${input})
@@ -77,6 +78,7 @@ do
         chain=$(echo "${rule}" | jq -r '.chain')
         geneType=$(echo "${rule}" | jq -r '.geneType')
         pFastaFile=${cacheFolder}/$(basename ${output}).p.fasta
+        pFastaFileTemp=${cacheFolder}/$(basename ${output}).p.tmp
 
         # Downloading file
         if [ ! -f ${pFastaFile} ] || [ ${redownload} == true ];
@@ -87,6 +89,13 @@ do
             do
                 echo "Downloading: ${src}"
                 $wg ${src} | pup -p 'pre:last-of-type' | sed "/^$/d" | sed "/<.*pre>/d" | sed 's/ *//' >> ${pFastaFile}
+                if [[ "$geneType" == "C" ]];
+                then
+                    awk '{ if ((NR>1)&&($0~/^>/)) { printf("\n%s", $0); } else if (NR==1) { printf("%s", $0); } else { printf("\t%s", $0); } }' ${pFastaFile} | \
+                        grep -E "CH1|EX1|REGION" - | \
+                        tr "\t" "\n" >> ${pFastaFileTemp}
+                    mv ${pFastaFileTemp} ${pFastaFile}
+                fi
             done
         fi
 

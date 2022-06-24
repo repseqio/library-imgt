@@ -167,6 +167,29 @@
       "sources": [
         "http://www.imgt.org/genedb/GENElect?query=7.14+TRBJ&species=Oncorhynchus+mykiss"
       ]
+    },
+        {
+      "ruleType": "import",
+      "output": "output/rainbow_trout_C_IGH",
+      "geneType": "C",
+      "chain": "IGH",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 12
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGHC&species=Oncorhynchus+mykiss"
+      ]
     }
   ]
 }

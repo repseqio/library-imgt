@@ -1,14 +1,14 @@
 {
-  "taxonId": 9258,
+  "taxonId": 9925,
   "speciesNames": [
-    "platypus"
+    "goat"
   ],
   "rules": [
     {
       "ruleType": "import",
-      "output": "output/platypus_V_IGH",
+      "output": "output/goat_V_IGK",
       "geneType": "V",
-      "chain": "IGH",
+      "chain": "IGK",
       "anchorPoints": [
         {
           "point": "FR1Begin",
@@ -20,19 +20,19 @@
         },
         {
           "point": "FR2Begin",
-          "position": 117
+          "position": 114
         },
         {
           "point": "CDR2Begin",
-          "position": 168
+          "position": 165
         },
         {
           "point": "FR3Begin",
-          "position": 198
+          "position": 195
         },
         {
           "point": "CDR3Begin",
-          "position": 312
+          "position": 309
         },
         {
           "point": "VEnd",
@@ -40,33 +40,14 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHV&species=Ornithorhynchus+anatinus"
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGKV&species=Capra+hircus"
       ]
     },
     {
       "ruleType": "import",
-      "output": "output/platypus_D_IGH",
-      "geneType": "D",
-      "chain": "IGH",
-      "anchorPoints": [
-        {
-          "point": "DBegin",
-          "position": 0
-        },
-        {
-          "point": "DEnd",
-          "position": -1
-        }
-      ],
-      "sources": [
-        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHD&species=Ornithorhynchus+anatinus"
-      ]
-    },
-    {
-      "ruleType": "import",
-      "output": "output/platypus_J_IGH",
+      "output": "output/goat_J_IGK",
       "geneType": "J",
-      "chain": "IGH",
+      "chain": "IGK",
       "anchorPoints": [
         {
           "point": "JBegin",
@@ -74,7 +55,7 @@
         },
         {
           "point": "FR4Begin",
-          "position": -31,
+          "position": -28,
           "aaPattern": "[WF](G.G)"
         },
         {
@@ -83,18 +64,17 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHJ&species=Ornithorhynchus+anatinus"
+        "https://www.imgt.org/genedb/GENElect?query=7.5+IGKJ&species=Capra+hircus"
       ]
-    },
-        {
+    },{
       "ruleType": "import",
-      "output": "output/platypus_C_IGH",
+      "output": "output/goat_C_IGK",
       "geneType": "C",
-      "chain": "IGH",
+      "chain": "IGK",
       "anchorPoints": [
         {
           "point": "CBegin",
-          "position": 13
+          "position": 12
         },
         {
           "point": "CExon1End",
@@ -106,7 +86,7 @@
         }
       ],
       "sources": [
-        "https://www.imgt.org/genedb/GENElect?query=7.1+IGHC&species=Ornithorhynchus+anatinus"
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGKC&species=Capra+hircus"
       ]
     }
   ]

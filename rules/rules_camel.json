@@ -70,6 +70,29 @@
     },
     {
       "ruleType": "import",
+      "output": "output/camel_C_IGK",
+      "geneType": "C",
+      "chain": "IGK",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 12
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGKC&species=Camelus+dromedarius"
+      ]
+    },
+    {
+      "ruleType": "import",
       "output": "output/camel_V_TRD",
       "geneType": "V",
       "chain": "TRD",

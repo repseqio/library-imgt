@@ -148,6 +148,52 @@
       "sources": [
         "http://imgt.org/genedb/GENElect?query=7.5+IGKJ&species=Equus+caballus"
       ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/horse_C_IGH",
+      "geneType": "C",
+      "chain": "IGH",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 13
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGHC&species=Equus+caballus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/horse_C_IGK",
+      "geneType": "C",
+      "chain": "IGK",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 13
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGKC&species=Equus+caballus"
+      ]
     }
   ]
 }

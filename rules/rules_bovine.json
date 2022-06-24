@@ -42,7 +42,7 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/vquest/refseq/bovine/IGHV.html"
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGHV&species=Bos+taurus"
       ]
     },
     {
@@ -61,7 +61,7 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/vquest/refseq/bovine/IGHD.html"
+        "https://www.imgt.org/genedb/GENElect?query=7.5+IGHD&species=Bos+taurus"
       ]
     },
     {
@@ -85,7 +85,259 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/vquest/refseq/bovine/IGHJ.html"
+        "https://www.imgt.org/genedb/GENElect?query=7.5+IGHJ&species=Bos+taurus"
+      ]
+    },{
+      "ruleType": "import",
+      "output": "output/bovine_V_IGK",
+      "geneType": "V",
+      "chain": "IGK",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 78
+        },
+        {
+          "point": "FR2Begin",
+          "position": 114
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 165
+        },
+        {
+          "point": "FR3Begin",
+          "position": 195
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 309
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGKV&species=Bos+taurus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/bovine_J_IGK",
+      "geneType": "J",
+      "chain": "IGK",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -28,
+          "aaPattern": "[WF](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.5+IGKJ&species=Bos+taurus"
+      ]
+    },{
+      "ruleType": "import",
+      "output": "output/bovine_C_IGK",
+      "geneType": "C",
+      "chain": "IGK",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 13
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGKC&species=Bos+taurus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/bovine_V_IGL",
+      "geneType": "V",
+      "chain": "IGL",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 78
+        },
+        {
+          "point": "FR2Begin",
+          "position": 114
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 165
+        },
+        {
+          "point": "FR3Begin",
+          "position": 195
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 309
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGLV&species=Bos+taurus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/bovine_J_IGL",
+      "geneType": "J",
+      "chain": "IGL",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -28,
+          "aaPattern": "[WF](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.5+IGLJ&species=Bos+taurus"
+      ]
+    },
+     {
+      "ruleType": "import",
+      "output": "output/bovine_C_IGL",
+      "geneType": "C",
+      "chain": "IGL",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 15
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGLC&species=Bos+taurus"
+      ]
+    },
+     {
+      "ruleType": "import",
+      "output": "output/bovine_V_TRB",
+      "geneType": "V",
+      "chain": "TRB",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 78
+        },
+        {
+          "point": "FR2Begin",
+          "position": 114
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 165
+        },
+        {
+          "point": "FR3Begin",
+          "position": 195
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 309
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+TRBV&species=Bos+taurus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/bovine_D_TRB",
+      "geneType": "D",
+      "chain": "TRB",
+      "anchorPoints": [
+        {
+          "point": "DBegin",
+          "position": 0
+        },
+        {
+          "point": "DEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.5+TRBD&species=Bos+taurus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/bovine_J_TRB",
+      "geneType": "J",
+      "chain": "TRB",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -28,
+          "aaPattern": "[WF](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.5+TRBJ&species=Bos+taurus"
       ]
     },
     {
@@ -302,6 +554,98 @@
       ],
       "sources": [
         "http://www.imgt.org/genedb/GENElect?query=7.14+TRGJ&species=Bos+taurus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/bovine_C_IGH",
+      "geneType": "C",
+      "chain": "IGH",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 13
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGHC&species=Bos+taurus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/bovine_C_TRA",
+      "geneType": "C",
+      "chain": "TRA",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 10
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+TRAC&species=Bos+taurus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/bovine_C_TRD",
+      "geneType": "C",
+      "chain": "TRD",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 7
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+TRDC&species=Bos+taurus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/bovine_C_TRB",
+      "geneType": "C",
+      "chain": "TRB",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 3
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+TRBC&species=Bos+taurus"
       ]
     }
   ]

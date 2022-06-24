@@ -1,95 +1,12 @@
 {
-  "taxonId": 9823,
+  "taxonId": 9685,
   "speciesNames": [
-    "pig",
-    "susscrofa"
+    "cat"
   ],
   "rules": [
     {
       "ruleType": "import",
-      "output": "output/pig_V_IGH",
-      "geneType": "V",
-      "chain": "IGH",
-      "anchorPoints": [
-        {
-          "point": "FR1Begin",
-          "position": 0
-        },
-        {
-          "point": "CDR1Begin",
-          "position": 78
-        },
-        {
-          "point": "FR2Begin",
-          "position": 114
-        },
-        {
-          "point": "CDR2Begin",
-          "position": 165
-        },
-        {
-          "point": "FR3Begin",
-          "position": 195
-        },
-        {
-          "point": "CDR3Begin",
-          "position": 309
-        },
-        {
-          "point": "VEnd",
-          "position": -1
-        }
-      ],
-      "sources": [
-        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHV&species=Sus+scrofa"
-      ]
-    },
-    {
-      "ruleType": "import",
-      "output": "output/pig_D_IGH",
-      "geneType": "D",
-      "chain": "IGH",
-      "anchorPoints": [
-        {
-          "point": "DBegin",
-          "position": 0
-        },
-        {
-          "point": "DEnd",
-          "position": -1
-        }
-      ],
-      "sources": [
-        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHD&species=Sus+scrofa"
-      ]
-    },
-    {
-      "ruleType": "import",
-      "output": "output/pig_J_IGH",
-      "geneType": "J",
-      "chain": "IGH",
-      "anchorPoints": [
-        {
-          "point": "JBegin",
-          "position": 0
-        },
-        {
-          "point": "FR4Begin",
-          "position": -31,
-          "aaPattern": "[WF](G.G)"
-        },
-        {
-          "point": "FR4End",
-          "position": -1
-        }
-      ],
-      "sources": [
-        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHJ&species=Sus+scrofa"
-      ]
-    },
-    {
-      "ruleType": "import",
-      "output": "output/pig_V_IGK",
+      "output": "output/cat_V_IGK",
       "geneType": "V",
       "chain": "IGK",
       "anchorPoints": [
@@ -123,12 +40,12 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/genedb/GENElect?query=7.14+IGKV&species=Sus+scrofa"
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGKV&species=Felis+catus"
       ]
     },
     {
       "ruleType": "import",
-      "output": "output/pig_J_IGK",
+      "output": "output/cat_J_IGK",
       "geneType": "J",
       "chain": "IGK",
       "anchorPoints": [
@@ -147,12 +64,34 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/genedb/GENElect?query=7.14+IGKJ&species=Sus+scrofa"
+        "https://www.imgt.org/genedb/GENElect?query=7.5+IGKJ&species=Felis+catus"
+      ]
+    },{
+      "ruleType": "import",
+      "output": "output/cat_C_IGK",
+      "geneType": "C",
+      "chain": "IGK",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 12
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGKC&species=Felis+catus"
       ]
     },
     {
       "ruleType": "import",
-      "output": "output/pig_V_IGL",
+      "output": "output/cat_V_IGL",
       "geneType": "V",
       "chain": "IGL",
       "anchorPoints": [
@@ -186,12 +125,12 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/genedb/GENElect?query=7.14+IGLV&species=Sus+scrofa"
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGLV&species=Felis+catus"
       ]
     },
     {
       "ruleType": "import",
-      "output": "output/pig_J_IGL",
+      "output": "output/cat_J_IGL",
       "geneType": "J",
       "chain": "IGL",
       "anchorPoints": [
@@ -210,140 +149,11 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/genedb/GENElect?query=7.14+IGLJ&species=Sus+scrofa"
+        "https://www.imgt.org/genedb/GENElect?query=7.5+IGLJ&species=Felis+catus"
       ]
-    }, 
-    {
+    },{
       "ruleType": "import",
-      "output": "output/pig_V_TRB",
-      "geneType": "V",
-      "chain": "TRB",
-      "anchorPoints": [
-        {
-          "point": "FR1Begin",
-          "position": 0
-        },
-        {
-          "point": "CDR1Begin",
-          "position": 78
-        },
-        {
-          "point": "FR2Begin",
-          "position": 114
-        },
-        {
-          "point": "CDR2Begin",
-          "position": 165
-        },
-        {
-          "point": "FR3Begin",
-          "position": 195
-        },
-        {
-          "point": "CDR3Begin",
-          "position": 309
-        },
-        {
-          "point": "VEnd",
-          "position": -1
-        }
-      ],
-      "sources": [
-        "https://www.imgt.org/genedb/GENElect?query=7.1+TRBV&species=Sus+scrofa"
-      ]
-    },
-    {
-      "ruleType": "import",
-      "output": "output/pig_D_TRB",
-      "geneType": "D",
-      "chain": "TRB",
-      "anchorPoints": [
-        {
-          "point": "DBegin",
-          "position": 0
-        },
-        {
-          "point": "DEnd",
-          "position": -1
-        }
-      ],
-      "sources": [
-        "https://www.imgt.org/genedb/GENElect?query=7.5+TRBD&species=Sus+scrofa"
-      ]
-    },
-    {
-      "ruleType": "import",
-      "output": "output/pig_J_TRB",
-      "geneType": "J",
-      "chain": "TRB",
-      "anchorPoints": [
-        {
-          "point": "JBegin",
-          "position": 0
-        },
-        {
-          "point": "FR4Begin",
-          "position": -28,
-          "aaPattern": "[WF](G.G)"
-        },
-        {
-          "point": "FR4End",
-          "position": -1
-        }
-      ],
-      "sources": [
-        "https://www.imgt.org/genedb/GENElect?query=7.5+TRBJ&species=Sus+scrofa"
-      ]
-    },
-    {
-      "ruleType": "import",
-      "output": "output/pig_C_IGH",
-      "geneType": "C",
-      "chain": "IGH",
-      "anchorPoints": [
-        {
-          "point": "CBegin",
-          "position": 13
-        },
-        {
-          "point": "CExon1End",
-          "position": -1
-        },
-        {
-          "point": "CEnd",
-          "position": -1
-        }
-      ],
-      "sources": [
-        "https://www.imgt.org/genedb/GENElect?query=7.1+IGHC&species=Sus+scrofa"
-      ]
-    },
-    {
-      "ruleType": "import",
-      "output": "output/pig_C_IGK",
-      "geneType": "C",
-      "chain": "IGK",
-      "anchorPoints": [
-        {
-          "point": "CBegin",
-          "position": 13
-        },
-        {
-          "point": "CExon1End",
-          "position": -1
-        },
-        {
-          "point": "CEnd",
-          "position": -1
-        }
-      ],
-      "sources": [
-        "https://www.imgt.org/genedb/GENElect?query=7.1+IGKC&species=Sus+scrofa"
-      ]
-    },
-    {
-      "ruleType": "import",
-      "output": "output/pig_C_IGL",
+      "output": "output/cat_C_IGL",
       "geneType": "C",
       "chain": "IGL",
       "anchorPoints": [
@@ -361,12 +171,93 @@
         }
       ],
       "sources": [
-        "https://www.imgt.org/genedb/GENElect?query=7.1+IGLC&species=Sus+scrofa"
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGLC&species=Felis+catus"
       ]
     },
     {
       "ruleType": "import",
-      "output": "output/pig_C_TRB",
+      "output": "output/cat_V_TRB",
+      "geneType": "V",
+      "chain": "TRB",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 78
+        },
+        {
+          "point": "FR2Begin",
+          "position": 114
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 165
+        },
+        {
+          "point": "FR3Begin",
+          "position": 195
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 309
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+TRBV&species=Felis+catus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/cat_D_TRB",
+      "geneType": "D",
+      "chain": "TRB",
+      "anchorPoints": [
+        {
+          "point": "DBegin",
+          "position": 0
+        },
+        {
+          "point": "DEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.5+TRBD&species=Felis+catus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/cat_J_TRB",
+      "geneType": "J",
+      "chain": "TRB",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -28,
+          "aaPattern": "[WF](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.5+TRBJ&species=Felis+catus"
+      ]
+    },{
+      "ruleType": "import",
+      "output": "output/cat_C_TRB",
       "geneType": "C",
       "chain": "TRB",
       "anchorPoints": [
@@ -384,7 +275,92 @@
         }
       ],
       "sources": [
-        "https://www.imgt.org/genedb/GENElect?query=7.1+TRBC&species=Sus+scrofa"
+        "https://www.imgt.org/genedb/GENElect?query=7.1+TRBC&species=Felis+catus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/cat_V_TRG",
+      "geneType": "V",
+      "chain": "TRG",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 78
+        },
+        {
+          "point": "FR2Begin",
+          "position": 114
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 165
+        },
+        {
+          "point": "FR3Begin",
+          "position": 195
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 309
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+TRGV&species=Felis+catus"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/cat_J_TRG",
+      "geneType": "J",
+      "chain": "TRG",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -28,
+          "aaPattern": "[WF](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.5+TRGJ&species=Felis+catus"
+      ]
+    },{
+      "ruleType": "import",
+      "output": "output/cat_C_TRG",
+      "geneType": "C",
+      "chain": "TRG",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 0
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+TRGC&species=Felis+catus"
       ]
     }
   ]

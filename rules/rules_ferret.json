@@ -1,14 +1,14 @@
 {
-  "taxonId": 9258,
+  "taxonId": 9669,
   "speciesNames": [
-    "platypus"
+    "ferret"
   ],
   "rules": [
     {
       "ruleType": "import",
-      "output": "output/platypus_V_IGH",
+      "output": "output/ferret_V_TRB",
       "geneType": "V",
-      "chain": "IGH",
+      "chain": "TRB",
       "anchorPoints": [
         {
           "point": "FR1Begin",
@@ -20,19 +20,19 @@
         },
         {
           "point": "FR2Begin",
-          "position": 117
+          "position": 114
         },
         {
           "point": "CDR2Begin",
-          "position": 168
+          "position": 165
         },
         {
           "point": "FR3Begin",
-          "position": 198
+          "position": 195
         },
         {
           "point": "CDR3Begin",
-          "position": 312
+          "position": 309
         },
         {
           "point": "VEnd",
@@ -40,14 +40,14 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHV&species=Ornithorhynchus+anatinus"
+        "https://www.imgt.org/genedb/GENElect?query=7.1+TRBV&species=Mustela+putorius+furo"
       ]
     },
     {
       "ruleType": "import",
-      "output": "output/platypus_D_IGH",
+      "output": "output/ferret_D_TRB",
       "geneType": "D",
-      "chain": "IGH",
+      "chain": "TRB",
       "anchorPoints": [
         {
           "point": "DBegin",
@@ -59,14 +59,14 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHD&species=Ornithorhynchus+anatinus"
+        "https://www.imgt.org/genedb/GENElect?query=7.5+TRBD&species=Mustela+putorius+furo"
       ]
     },
     {
       "ruleType": "import",
-      "output": "output/platypus_J_IGH",
+      "output": "output/ferret_J_TRB",
       "geneType": "J",
-      "chain": "IGH",
+      "chain": "TRB",
       "anchorPoints": [
         {
           "point": "JBegin",
@@ -74,7 +74,7 @@
         },
         {
           "point": "FR4Begin",
-          "position": -31,
+          "position": -28,
           "aaPattern": "[WF](G.G)"
         },
         {
@@ -83,18 +83,17 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHJ&species=Ornithorhynchus+anatinus"
+        "https://www.imgt.org/genedb/GENElect?query=7.5+TRBJ&species=Mustela+putorius+furo"
       ]
-    },
-        {
+    },{
       "ruleType": "import",
-      "output": "output/platypus_C_IGH",
+      "output": "output/ferret_C_TRB",
       "geneType": "C",
-      "chain": "IGH",
+      "chain": "TRB",
       "anchorPoints": [
         {
           "point": "CBegin",
-          "position": 13
+          "position": 3
         },
         {
           "point": "CExon1End",
@@ -106,7 +105,7 @@
         }
       ],
       "sources": [
-        "https://www.imgt.org/genedb/GENElect?query=7.1+IGHC&species=Ornithorhynchus+anatinus"
+        "https://www.imgt.org/genedb/GENElect?query=7.1+TRBC&species=Mustela+putorius+furo"
       ]
     }
   ]

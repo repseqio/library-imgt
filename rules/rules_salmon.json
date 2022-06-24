@@ -1,12 +1,12 @@
 {
-  "taxonId": 9258,
+  "taxonId": 8030,
   "speciesNames": [
-    "platypus"
+    "salmon"
   ],
   "rules": [
     {
       "ruleType": "import",
-      "output": "output/platypus_V_IGH",
+      "output": "output/salmon_V_IGH",
       "geneType": "V",
       "chain": "IGH",
       "anchorPoints": [
@@ -20,19 +20,19 @@
         },
         {
           "point": "FR2Begin",
-          "position": 117
+          "position": 114
         },
         {
           "point": "CDR2Begin",
-          "position": 168
+          "position": 165
         },
         {
           "point": "FR3Begin",
-          "position": 198
+          "position": 195
         },
         {
           "point": "CDR3Begin",
-          "position": 312
+          "position": 309
         },
         {
           "point": "VEnd",
@@ -40,12 +40,12 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHV&species=Ornithorhynchus+anatinus"
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGHV&species=Salmo+salar"
       ]
     },
     {
       "ruleType": "import",
-      "output": "output/platypus_D_IGH",
+      "output": "output/salmon_D_IGH",
       "geneType": "D",
       "chain": "IGH",
       "anchorPoints": [
@@ -59,12 +59,12 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHD&species=Ornithorhynchus+anatinus"
+        "https://www.imgt.org/genedb/GENElect?query=7.5+IGHD&species=Salmo+salar"
       ]
     },
     {
       "ruleType": "import",
-      "output": "output/platypus_J_IGH",
+      "output": "output/salmon_J_IGH",
       "geneType": "J",
       "chain": "IGH",
       "anchorPoints": [
@@ -83,12 +83,12 @@
         }
       ],
       "sources": [
-        "http://www.imgt.org/genedb/GENElect?query=7.14+IGHJ&species=Ornithorhynchus+anatinus"
+        "https://www.imgt.org/genedb/GENElect?query=7.5+IGHJ&species=Salmo+salar"
       ]
     },
-        {
+    {
       "ruleType": "import",
-      "output": "output/platypus_C_IGH",
+      "output": "output/salmon_C_IGH",
       "geneType": "C",
       "chain": "IGH",
       "anchorPoints": [
@@ -106,7 +106,7 @@
         }
       ],
       "sources": [
-        "https://www.imgt.org/genedb/GENElect?query=7.1+IGHC&species=Ornithorhynchus+anatinus"
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGHC&species=Salmo+salar"
       ]
     }
   ]

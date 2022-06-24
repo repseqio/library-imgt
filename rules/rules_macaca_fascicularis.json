@@ -167,6 +167,52 @@
       "sources": [
         "http://imgt.org/genedb/GENElect?query=7.2+TRBJ&species=Macaca+fascicularis"
       ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/macacaFascicularis_C_IGH",
+      "geneType": "C",
+      "chain": "IGH",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 13
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGHC&species=Macaca+fascicularis"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/macacaFascicularis_C_TRB",
+      "geneType": "C",
+      "chain": "TRB",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 3
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+TRBC&species=Macaca+fascicularis"
+      ]
     }
   ]
 }
