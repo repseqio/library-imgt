@@ -1,0 +1,94 @@
+{
+  "taxonId": 9601,
+  "speciesNames": [
+    "pongo"
+    ],
+  "rules": [
+    {
+      "ruleType": "import",
+      "output": "output/pongo_V_IGK",
+      "geneType": "V",
+      "chain": "IGK",
+      "anchorPoints": [
+        {
+          "point": "FR1Begin",
+          "position": 0
+        },
+        {
+          "point": "CDR1Begin",
+          "position": 78
+        },
+        {
+          "point": "FR2Begin",
+          "position": 114
+        },
+        {
+          "point": "CDR2Begin",
+          "position": 165
+        },
+        {
+          "point": "FR3Begin",
+          "position": 195
+        },
+        {
+          "point": "CDR3Begin",
+          "position": 309
+        },
+        {
+          "point": "VEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGKV&species=Pongo+abelii"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/pongo_J_IGK",
+      "geneType": "J",
+      "chain": "IGK",
+      "anchorPoints": [
+        {
+          "point": "JBegin",
+          "position": 0
+        },
+        {
+          "point": "FR4Begin",
+          "position": -28,
+          "aaPattern": "[WF](G.G)"
+        },
+        {
+          "point": "FR4End",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.5+IGKJ&species=Pongo+abelii"
+      ]
+    },
+    {
+      "ruleType": "import",
+      "output": "output/pongo_C_IGK",
+      "geneType": "C",
+      "chain": "IGK",
+      "anchorPoints": [
+        {
+          "point": "CBegin",
+          "position": 13
+        },
+        {
+          "point": "CExon1End",
+          "position": -1
+        },
+        {
+          "point": "CEnd",
+          "position": -1
+        }
+      ],
+      "sources": [
+        "https://www.imgt.org/genedb/GENElect?query=7.5+IGKC&species=Pongo+abelii"
+      ]
+    }
+  ]
+}

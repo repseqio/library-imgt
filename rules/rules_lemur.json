@@ -1,12 +1,12 @@
 {
-  "taxonId": 9595,
+  "taxonId": 1758,
   "speciesNames": [
-    "Gorilla gorilla gorilla"
-    ],
+    "lemur"
+  ],
   "rules": [
     {
       "ruleType": "import",
-      "output": "output/gorilla_V_IGH",
+      "output": "output/lemur_V_IGH",
       "geneType": "V",
       "chain": "IGH",
       "anchorPoints": [
@@ -40,12 +40,12 @@
         }
       ],
       "sources": [
-        "https://www.imgt.org/genedb/GENElect?query=7.1+IGHV&species=Gorilla+gorilla+gorilla"
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGHV&species=Lemur+catta"
       ]
     },
     {
       "ruleType": "import",
-      "output": "output/gorilla_D_IGH",
+      "output": "output/lemur_D_IGH",
       "geneType": "D",
       "chain": "IGH",
       "anchorPoints": [
@@ -59,12 +59,12 @@
         }
       ],
       "sources": [
-        "https://www.imgt.org/genedb/GENElect?query=7.5+IGHD&species=Gorilla+gorilla+gorilla"
+        "https://www.imgt.org/genedb/GENElect?query=7.5+IGHD&species=Lemur+catta"
       ]
     },
     {
       "ruleType": "import",
-      "output": "output/gorilla_J_IGH",
+      "output": "output/lemur_J_IGH",
       "geneType": "J",
       "chain": "IGH",
       "anchorPoints": [
@@ -83,18 +83,18 @@
         }
       ],
       "sources": [
-        "https://www.imgt.org/genedb/GENElect?query=7.5+IGHJ&species=Gorilla+gorilla+gorilla"
+        "https://www.imgt.org/genedb/GENElect?query=7.5+IGHJ&species=Lemur+catta"
       ]
     },
     {
       "ruleType": "import",
-      "output": "output/gorilla_C_IGH",
+      "output": "output/lemur_C_IGH",
       "geneType": "C",
       "chain": "IGH",
       "anchorPoints": [
         {
           "point": "CBegin",
-          "position": 13
+          "position": 12
         },
         {
           "point": "CExon1End",
@@ -106,14 +106,14 @@
         }
       ],
       "sources": [
-        "https://www.imgt.org/genedb/GENElect?query=7.1+IGHC&species=Gorilla+gorilla+gorilla"
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGHC&species=Lemur+catta"
       ]
     },
     {
       "ruleType": "import",
-      "output": "output/gorilla_V_TRG",
+      "output": "output/lemur_V_IGK",
       "geneType": "V",
-      "chain": "TRG",
+      "chain": "IGK",
       "anchorPoints": [
         {
           "point": "FR1Begin",
@@ -145,14 +145,14 @@
         }
       ],
       "sources": [
-        "https://www.imgt.org/genedb/GENElect?query=7.1+TRGV&species=Gorilla+gorilla+gorilla"
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGKV&species=Lemur+catta"
       ]
     },
     {
       "ruleType": "import",
-      "output": "output/gorilla_J_TRG",
+      "output": "output/lemur_J_IGK",
       "geneType": "J",
-      "chain": "TRG",
+      "chain": "IGK",
       "anchorPoints": [
         {
           "point": "JBegin",
@@ -169,17 +169,17 @@
         }
       ],
       "sources": [
-        "https://www.imgt.org/genedb/GENElect?query=7.5+TRGJ&species=Gorilla+gorilla+gorilla"
+        "https://www.imgt.org/genedb/GENElect?query=7.5+IGKJ&species=Lemur+catta"
       ]
     },{
       "ruleType": "import",
-      "output": "output/gorilla_C_TRG",
+      "output": "output/lemur_C_IGK",
       "geneType": "C",
-      "chain": "TRG",
+      "chain": "IGK",
       "anchorPoints": [
         {
           "point": "CBegin",
-          "position": 0
+          "position": 12
         },
         {
           "point": "CExon1End",
@@ -191,7 +191,7 @@
         }
       ],
       "sources": [
-        "https://www.imgt.org/genedb/GENElect?query=7.5+TRGC&species=Gorilla+gorilla+gorilla"
+        "https://www.imgt.org/genedb/GENElect?query=7.1+IGKC&species=Lemur+catta"
       ]
     }
   ]
